@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/google/battery-historian/csv"
+	"github.com/chenjiacun35/battery-historian/csv"
 )
 
 // TestParse tests the generation of CSV entries from the kernel dmesg logs.

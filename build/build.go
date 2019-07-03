@@ -21,7 +21,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	pb "github.com/google/battery-historian/pb/build_proto"
+	pb "github.com/chenjiacun35/battery-historian/pb/build_proto"
 )
 
 var fingerprintRE = regexp.MustCompile(

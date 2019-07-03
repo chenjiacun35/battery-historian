@@ -22,9 +22,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/google/battery-historian/historianutils"
+	"github.com/chenjiacun35/battery-historian/historianutils"
 
-	usagepb "github.com/google/battery-historian/pb/usagestats_proto"
+	usagepb "github.com/chenjiacun35/battery-historian/pb/usagestats_proto"
 )
 
 const (

@@ -25,12 +25,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/battery-historian/bugreportutils"
-	"github.com/google/battery-historian/csv"
-	"github.com/google/battery-historian/historianutils"
-	"github.com/google/battery-historian/packageutils"
-	metricspb "github.com/google/battery-historian/pb/metrics_proto"
-	usagepb "github.com/google/battery-historian/pb/usagestats_proto"
+	"github.com/chenjiacun35/battery-historian/bugreportutils"
+	"github.com/chenjiacun35/battery-historian/csv"
+	"github.com/chenjiacun35/battery-historian/historianutils"
+	"github.com/chenjiacun35/battery-historian/packageutils"
+	metricspb "github.com/chenjiacun35/battery-historian/pb/metrics_proto"
+	usagepb "github.com/chenjiacun35/battery-historian/pb/usagestats_proto"
 )
 
 var (

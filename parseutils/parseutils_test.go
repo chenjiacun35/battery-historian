@@ -26,9 +26,9 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/google/battery-historian/csv"
+	"github.com/chenjiacun35/battery-historian/csv"
 
-	usagepb "github.com/google/battery-historian/pb/usagestats_proto"
+	usagepb "github.com/chenjiacun35/battery-historian/pb/usagestats_proto"
 )
 
 var emptyUIDPackageMapping = PackageUIDMapping{}

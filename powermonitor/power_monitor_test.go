@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/google/battery-historian/csv"
+	"github.com/chenjiacun35/battery-historian/csv"
 )
 
 // Tests the generating of CSV entries from a powermonitor file.

@@ -23,8 +23,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/google/battery-historian/checkinutil"
-	"github.com/google/battery-historian/historianutils"
+	"github.com/chenjiacun35/battery-historian/checkinutil"
+	"github.com/chenjiacun35/battery-historian/historianutils"
 )
 
 // sortByStartTime sorts events in ascending order of startTimeMs.

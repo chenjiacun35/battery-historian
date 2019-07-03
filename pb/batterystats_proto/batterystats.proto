@@ -20,7 +20,7 @@ syntax = "proto2";
 
 package batterystats;
 
-import "github.com/google/battery-historian/pb/build_proto/build.proto";
+import "github.com/chenjiacun35/battery-historian/pb/build_proto/build.proto";
 
 message BatteryStats {
   // Unique ID for the record. Concatenation of end_time_usec, shard, and the index in the shard.

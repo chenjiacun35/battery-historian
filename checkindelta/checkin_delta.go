@@ -24,11 +24,11 @@ import (
 	"strings"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/google/battery-historian/checkinparse"
-	"github.com/google/battery-historian/packageutils"
+	"github.com/chenjiacun35/battery-historian/checkinparse"
+	"github.com/chenjiacun35/battery-historian/packageutils"
 
-	bspb "github.com/google/battery-historian/pb/batterystats_proto"
-	bldpb "github.com/google/battery-historian/pb/build_proto"
+	bspb "github.com/chenjiacun35/battery-historian/pb/batterystats_proto"
+	bldpb "github.com/chenjiacun35/battery-historian/pb/build_proto"
 )
 
 const (

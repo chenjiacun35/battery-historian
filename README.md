@@ -63,13 +63,13 @@ Next, install Java from <http://www.oracle.com/technetwork/java/javase/downloads
 Next, download the Battery Historian code and its dependencies:
 
 ```
-$ go get -d -u github.com/google/battery-historian/...
+$ go get -d -u github.com/chenjiacun35/battery-historian/...
 ```
 
 Finally, run Battery Historian!
 
 ```
-$ cd $GOPATH/src/github.com/google/battery-historian
+$ cd $GOPATH/src/github.com/chenjiacun35/battery-historian
 
 # Compile Javascript files using the Closure compiler
 $ go run setup.go
@@ -78,10 +78,10 @@ $ go run setup.go
 $ go run cmd/battery-historian/battery-historian.go [--port <default:9999>]
 ```
 
-Remember, you must always run battery-historian from inside the `$GOPATH/src/github.com/google/battery-historian` directory:
+Remember, you must always run battery-historian from inside the `$GOPATH/src/github.com/chenjiacun35/battery-historian` directory:
 
 ```
-cd $GOPATH/src/github.com/google/battery-historian
+cd $GOPATH/src/github.com/chenjiacun35/battery-historian
 go run cmd/battery-historian/battery-historian.go [--port <default:9999>]
 ```
 
@@ -271,7 +271,7 @@ $ go run cmd/checkin-delta/local_checkin_delta.go --input=bugreport_1.txt,bugrep
 - G+ Community (Discussion Thread: Battery Historian): https://plus.google.com/b/108967384991768947849/communities/114791428968349268860
 
 If you've found an error in this project, please file an issue:
-<https://github.com/google/battery-historian/issues>
+<https://github.com/chenjiacun35/battery-historian/issues>
 
 ## License
 

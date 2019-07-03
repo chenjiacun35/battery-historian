@@ -22,7 +22,7 @@ import (
 	"net/http"
 	"path"
 
-	"github.com/google/battery-historian/analyzer"
+	"github.com/chenjiacun35/battery-historian/analyzer"
 )
 
 var (
